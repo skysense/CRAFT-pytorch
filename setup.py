@@ -30,7 +30,7 @@ def get_requirements():
 
 
 setup(
-    name='skysense_craft_pytorch',
+    name='craft_pytorch',
     version=VERSION,
     packages=find_packages(),
     install_requires=get_requirements(),
