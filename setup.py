@@ -2,8 +2,6 @@ from distutils.core import setup
 
 from setuptools import find_packages
 
-from craft import VERSION
-
 
 def get_requirements():
     # https://stackoverflow.com/questions/32688688/how-to-write-setup-py-to-include-a-git-repo-as-a-dependency
@@ -31,7 +29,7 @@ def get_requirements():
 
 setup(
     name='craft_pytorch',
-    version=VERSION,
+    version='1.0-skysense',
     packages=find_packages(),
     install_requires=get_requirements(),
     include_package_data=True,
